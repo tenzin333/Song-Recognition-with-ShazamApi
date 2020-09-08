@@ -1,0 +1,8 @@
+-The entire project is written in dart programming language.
+-Shazam api in use.
+-To run the project  open up the main.dart  which is inside the bin folder .
+-Provide raw audio format as an input parameter. (You can create such test samples using the audiocity desktpo application
+      raw data less than 500KB (3-5 seconds sample are good enough for detection). The raw sound data must be 44100Hz, 1 channel (Mono), 
+      signed 16 bit PCM little endian.
+      Other types of media are NOT supported, such as : mp3, wav, etc… or need to be converted to uncompressed raw data.)
+
